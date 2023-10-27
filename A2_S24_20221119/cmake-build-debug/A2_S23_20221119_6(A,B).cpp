@@ -27,3 +27,32 @@ int main() {
     std::cin>>num;
     BinaryNumber(num); //calling the function to work.
 }
+//=============================================================================
+// File: A2_S23_20221119_6(B).cpp
+// Purpose:
+// Author: mohammed gamal abd el nasser Atteya
+// Section: S23
+// ID: 20221119
+// TA:
+// Date: 28 Oct 2023
+#include <iostream>
+#include <string>
+using std::string;
+
+void numbers(string Prefix, int k) {
+    if (k == 0) {
+        std::cout << Prefix << std::endl;
+    } else {
+        numbers(Prefix + "0", k - 1);
+        numbers(Prefix + "1", k - 1);
+    }
+}
+int main() {
+    string Prefix;
+    int k;
+    std::cout << "enter a binary number: ";
+    std::cin >> Prefix;
+    std::cout << "enter an integer: ";
+    std::cin >> k;
+    numbers(Prefix,k);
+}
