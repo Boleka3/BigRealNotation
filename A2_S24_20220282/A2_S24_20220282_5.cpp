@@ -8,7 +8,7 @@
 #include <vector>
 #include <algorithm>
 
-// File: A2_S24_20220282_2.cpp
+// File: A2_S24_20220282_5.cpp
 // Purpose:This code is used to make a list of scores entered by the user and store them in a class and then sort them descendingly and output them to the user when called,you can also search for a certain player's high score by entering his name
 // Author: Mohamed Islam Khaled
 // Section: S24
