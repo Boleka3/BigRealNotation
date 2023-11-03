@@ -8,7 +8,7 @@
 #include <vector>
 #include <algorithm>
 
-// File: A2_S24_20220282_2.cpp
+// File: A2_S24_20220282_8.cpp
 // Purpose:This code is used to output a certain pattern decided by two inputs 
 // Author: Mohamed Islam Khaled
 // Section: S24
