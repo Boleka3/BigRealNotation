@@ -5,6 +5,8 @@ has only one" . "
 atleast 1 digit
 extract sign
 extract integer part and fraction part and store it
+not vlaid +0.0
+if there was no dot aslun!!
 
 real work: if same sign or not(the two big reals)
 +- = -
