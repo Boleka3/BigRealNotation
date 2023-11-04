@@ -1,1 +1,21 @@
+some constraints
+read string 
+starts with +- or a digit
+has only one" . "
+atleast 1 digit
+extract sign
+extract integer part and fraction part and store it
 
+real work: if same sign or not(the two big reals)
++- = -
+--= +
+create new big real
+44.444 and 9.999 gonna be 44.444 and 09.999 add the missing digit to be equal when being comparisoned
+adding the shrtest integer with zeros(pad)
+loop on fraction from end
+calculate and store in new real
+store in a new string for an example
+loop again but on integer
+bla bla bla 16 17 
+create new big real
+regex 3ndo kza este5dam adwr 3la kelma msln de wahda mnhom fe text manipulation and data extraction
