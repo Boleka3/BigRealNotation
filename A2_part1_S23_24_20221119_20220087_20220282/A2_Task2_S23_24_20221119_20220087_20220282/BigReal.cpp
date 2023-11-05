@@ -37,9 +37,7 @@ BigReal::BigReal(string real) {
 }
 
 
-bool BigReal::isValid(const string& real) {
-    return regex_match(real, regex("[+-]?\\d*.?\\d+")); //check if valid input by matching regex
-}
+
 
 void BigReal::padding(BigReal &other) {
     int diff = abs((int)integer.size() - (int)other.integer.size()); //to find difference in size in integer part
